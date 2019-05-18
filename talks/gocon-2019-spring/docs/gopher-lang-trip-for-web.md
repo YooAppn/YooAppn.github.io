@@ -2124,7 +2124,7 @@ class: center, middle
 .h1[
 サポート機能少ない
 
-けど簡単にかける
+けど簡単に書ける
 ]
 
 .big[
@@ -2188,31 +2188,39 @@ class: center, middle
 .right-split[
 
 .h2[
-<span class="bg-warning text-white h1">デメリット</span>
+<span class="bg-warning text-white h1">デメリットを捨てる</span>
 
 * 言語機能が増加すると覚える・することも増加
    * 保守性、可読性の減少
 
-<br><br>
-
-<span class="bg-primary text-white h1">やりたいこと</span>
+<span class="bg-primary text-white h1">Engがやりたいこと</span>
 
 * ものを作ったり、問題を解決したりしたい
 * Trendの取り込みや技法の使いたい
 
-<br><br>
-
-<span class="bg-danger text-white h1">モチベ・思想・哲学</span>
-
-* What???
+↑ これはTipsで解決 <i class="icon-go"></i>
 
 ]
 
 ]
 
 ---
+class: center, middle
 
-## まとめ
+
+.h1[
+あとは
+
+Golang の 開発者の
+
+<span class="bg-danger text-white h1">モチベ・思想・哲学</span>
+
+との整理
+]
+
+---
+
+## Golang の 哲学・思想
 
 <div class="text-center display-2">
 <span class="bg-info pl-4 pr-4 pt-1 pb-1 en">
@@ -2293,4 +2301,4 @@ class: center, middle, eye-bg
 
 ## Sources
 
-- [sample codes](https://github.com/YooAppn/YooAppn.github.io/talks/gocon-2019-spring/src)
+- [sample codes](https://github.com/YooAppn/YooAppn.github.io/tree/master/talks/gocon-2019-spring/src)

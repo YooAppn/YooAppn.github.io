@@ -2268,6 +2268,12 @@ Go code that is
 - maintainable.
 ]
 
+.text-center[
+<a class="badge badge-pill badge-info" href="https://talks.golang.org/2013/bestpractices.slide#2" target="_blank">
+Simplicity is Complicated <i class="inline-b material-icons" style="display: inline-flex; vertical-align: middle;">exit_to_app</i>
+</a>
+]
+
 ---
 class: center, eye-bg
 
@@ -2283,7 +2289,7 @@ class: center, eye-bg
 <i class="icon-go text-info"></i>
 <br>
 各言語ディスっている<br>
-内容あればすみません
+内容ありましたら、すみません
 
 </p>
 ]

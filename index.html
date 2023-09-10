@@ -16,8 +16,8 @@ body {
   font-family:Menlo,Bitstream Vera Sans Mono,DejaVu Sans Mono,Monaco,Consolas,monospace;
   margin: auto;
   color:#4a4a4a;
-padding: 13px;
-max-width: 38em;
+  padding: 13px;
+  max-width: 38em;
 }
       
 @media (max-width: 684px) {
@@ -32,7 +32,31 @@ max-width: 38em;
   }
 }
 
-.prettyprint{background:#1d1f21;font-family:Menlo,Bitstream Vera Sans Mono,DejaVu Sans Mono,Monaco,Consolas,monospace;border:0!important}.pln{color:#c5c8c6}ol.linenums{margin-top:0;margin-bottom:0;color:#969896}li.L0,li.L1,li.L2,li.L3,li.L4,li.L5,li.L6,li.L7,li.L8,li.L9{padding-left:1em;background-color:#1d1f21;list-style-type:decimal}@media screen{.str{color:#b5bd68}.kwd{color:#b294bb}.com{color:#969896}.typ{color:#81a2be}.lit{color:#de935f}.pun{color:#c5c8c6}.opn{color:#c5c8c6}.clo{color:#c5c8c6}.tag{color:#c66}.atn{color:#de935f}.atv{color:#8abeb7}.dec{color:#de935f}.var{color:#c66}.fun{color:#81a2be}}
+     .rect {
+       padding-left: 12px;
+       padding-right: 10px;
+       /*background:#1d1f21;*/
+       background:  #302f2E;
+       border-radius: 4px;
+     }
+
+.prettyprint{
+  font-family:Menlo,Bitstream Vera Sans Mono,DejaVu Sans Mono,Monaco,Consolas,monospace;
+  border:0!important
+}
+.pln{color:#c5c8c6}
+ol.linenums{margin-top:0;margin-bottom:0;color:#969896}
+li.L0,li.L1,li.L2,li.L3,li.L4,li.L5,li.L6,li.L7,li.L8,li.L9{
+  padding-left:1em;background-color:#1d1f21;list-style-type:decimal
+}
+
+@media screen{
+  .str{color:#b5bd68}.kwd{color:#b294bb}.com{color:#969896}
+  .typ{color:#81a2be}.lit{color:#de935f}.pun{color:#c5c8c6}
+  .opn{color:#c5c8c6}.clo{color:#c5c8c6}.tag{color:#c66}
+  .atn{color:#de935f}.atv{color:#8abeb7}.dec{color:#de935f}
+  .var{color:#c66}.fun{color:#81a2be}
+}
     </style>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -41,7 +65,6 @@ max-width: 38em;
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'UA-130161927-1');
 </script>
 
@@ -53,37 +76,37 @@ max-width: 38em;
 
   </head>
   <body>
-    ~<small>(game name)</small>
+
     <header>
       <h1>
         Hello My Name is<br/>
         <i class="material-icons">face</i>
-        <font color="skyblue">YooWaan</font>
+        <font color="skyblue">YooWaan</font> <font size="2px">~(game name)</font><br/>
       </h1>
 
+      <h4 style="margin:1px; display:inline-flex; align-items:center;"><i class="material-icons">location_on</i><span style="margin-left:12px;">Tokyo Japan</span></h4>
     </header>
     <main>
 
       <h2><i class="material-icons">build</i> Software Engineer</h2>
 
-      <pre class="prettyprint lang-js">
+      <div class="rect">
+        <pre class="prettyprint lang-js">
 Languages:
-  - java ++
-  - c++ +
-  - golang ++
-  - python +
-  - perl -
-  - ruby ---
+  - golang ++            - c++  +
+  - python +             - java +
+  - perl   -             - ruby ---
 
-Infrastructure
-  - GCP +
-  - AWS --
-  - Server Rack --
+Infrastructure          Lead
+  - GCP         ++       - project ++
+  - AWS         -        - team    ++
+  - server rack --       - org     +
 
 Develop Env
-  - Linux Mint (Office Desktop)
-  - macOS (My Room)
-      </pre>
+  - macOS (Office/My Room)  :-)
+  - Linux (mint)            +   (past)
+  - windows                 --</pre>
+      </div>
 
       <!-- <h2>Position Skills</h2> -->
 
@@ -92,8 +115,8 @@ Develop Env
       <h2><i class="material-icons">link</i> Links</h2>
 
       <ul>
-        <li><a href="https://twitter.com/yoowaan">Twitter</a></li>
-        <li><a href="">N/A</a></li>
+        <li><a href="https://twitter.com/yoowaan">X <small>(Twitter)</small></a></li>
+        <li><span>N/A</span></li>
         <li>Talks
           <ul>
             <li><a href="talks/gocon-2019-spring/">Gopherと行くLangな旅 <small>(Go Conference 2019 Spring)</small></a></li>
